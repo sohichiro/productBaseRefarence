@@ -8,7 +8,7 @@
 
 import XCTest
 
-class productBaseRefarenceUITests: XCTestCase {
+class ProductBaseRefarenceUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

@@ -9,7 +9,7 @@
 import XCTest
 @testable import productBaseRefarence
 
-class productBaseRefarenceTests: XCTestCase {
+class ProductBaseRefarenceTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

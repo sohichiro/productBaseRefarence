@@ -1,0 +1,50 @@
+# Downloading and Caching image
+github "kean/Nuke"
+#github "onevcat/Kingfisher"
+#github "rs/SDWebImage"
+
+# Progress Indicator
+github "SVProgressHUD/SVProgressHUD"
+
+# KeyChain
+github "kishikawakatsumi/KeychainAccess"
+
+# Syntax suger for Date
+github "malcommac/SwiftDate"
+
+# Syntax suger for AttributeString
+github "eddiekaiger/SwiftyAttributes"
+
+# detect URL on UILabel
+github "optonaut/ActiveLabel.swift"
+
+# device
+github "schickling/Device.swift"
+
+# async
+github "ReactiveX/RxSwift"
+
+# network
+github "ashleymills/Reachability.swift"
+
+# Optional
+# Mobile database
+github "realm/realm-cocoa"
+github "RxSwiftCommunity/RxRealm"
+
+# routing
+github "hyperoslo/Compass"
+
+# DI
+github "ishkawa/DIKIt"
+
+# resouce 
+# R.swift cocoapods
+# SwiftGen cocoapods
+
+# logger
+github "DaveWoodCom/XCGLogger"
+#github "SwiftyBeaver/SwiftyBeaver"
+
+# Analytics
+# CrashReport

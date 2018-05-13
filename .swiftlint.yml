@@ -1,0 +1,50 @@
+# refs. https://github.com/realm/SwiftLint#configuration
+
+disabled_rules:
+- line_length
+- trailing_whitespace
+- function_body_length
+- cyclomatic_complexity
+- valid_docs
+- force_cast
+- large_tuple
+- colon
+
+# opt_in_rules:
+# - force_unwrapping
+
+excluded:
+- Carthage 
+- Pods
+- R.generated.swift
+- AppResolver.generated.swift
+
+variable_name:
+  min_length: # warning and error
+    warning: 3
+    error: 2
+  max_length: # warning and error
+    warning: 60
+    error: 80
+  excluded: # excluded via string array
+  - i
+  - j
+  - k
+  - id
+  - r
+  - g
+  - b
+  - a
+  - e
+  - vc
+  - VC
+
+type_name:
+  min_length: 2
+  max_length: 50
+
+file_length:
+- 1000 # warning
+- 2000 # error
+
+# force_unwrapping: error
