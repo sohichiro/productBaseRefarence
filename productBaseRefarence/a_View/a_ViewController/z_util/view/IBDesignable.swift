@@ -8,20 +8,17 @@
 
 import UIKit
 
-
 /// 角丸
 protocol IBRoundable: class {
     var cornerRadius: CGFloat { get set }
     var masksToBounds: Bool { get set }
 }
 
-
 /// 枠線
 protocol IBBorderable: class {
     var borderColor: UIColor { get set }
     var borderWidth: CGFloat { get set }
 }
-
 
 /// 円形
 protocol Circlable: class {}

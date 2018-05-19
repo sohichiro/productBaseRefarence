@@ -42,7 +42,6 @@ public extension UIImage {
      UIImage(color: .red, size: .init(width: 100, height: 100))
      */
     
-    
     /// 画像を別の色で塗りつぶす（透明色は塗りつぶさない）
     ///
     /// - Parameter color: 色

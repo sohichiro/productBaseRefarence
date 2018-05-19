@@ -10,7 +10,6 @@ import Foundation
 
 infix operator ???
 
-
 /// ???でOptionalをErrorとしてThrowする
 ///
 /// - Parameters:
@@ -34,7 +33,6 @@ public func ??? <T>(lhs: T?, error: @autoclosure() -> Error) throws -> T {
     print(error) //=> OptionalError
  }
  */
-
 
 /// Dictionaryの値取得時にkeyがなければErrorをThrowする
 public struct DictionaryTryValueError: Error {

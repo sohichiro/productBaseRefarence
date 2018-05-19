@@ -39,7 +39,12 @@ extension UITableViewCell {
     }
     
     static func dequeue<T: UITableViewCell>(from tableView:UITableView, for indexPath:IndexPath) -> T {
-        return tableView.dequeueReusableCell(withIdentifier: self.reusableIdentifire, for: indexPath) as! T
+        if let cell = tableView.dequeueReusableCell(withIdentifier: self.reusableIdentifire, for: indexPath) as? T {
+            return cell
+        } else {
+            register(to: tableView)
+            return tableView.dequeueReusableCell(withIdentifier: self.reusableIdentifire, for: indexPath) as! T
+        }
     }
 }
 

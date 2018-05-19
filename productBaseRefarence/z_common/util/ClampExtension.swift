@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 // MARK: - 指定した範囲内に数値を収める（上限下限をカット）
 extension Comparable {
     func clamped(min: Self, max:Self) -> Self {

@@ -61,6 +61,8 @@ name: KeychainAccess, nameSpecified: , owner: kishikawakatsumi, version: v3.1.1
 
 name: Nuke, nameSpecified: , owner: kean, version: 7.0
 
+name: Reachability.swift, nameSpecified: , owner: ashleymills, version: v4.1.0
+
 name: realm-cocoa, nameSpecified: , owner: realm, version: v3.5.0
 
 name: RxRealm, nameSpecified: , owner: RxSwiftCommunity, version: 0.7.5
