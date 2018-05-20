@@ -51,19 +51,23 @@ version: 4.0.0
 
 name: ActiveLabel.swift, nameSpecified: , owner: optonaut, version: 0.8.1
 
+name: APIKit, nameSpecified: , owner: ishkawa, version: 3.2.1
+
 name: Compass, nameSpecified: , owner: hyperoslo, version: 6.0.0
 
 name: Device.swift, nameSpecified: , owner: schickling, version: 1.1.2
 
-name: DIKIt, nameSpecified: , owner: ishkawa, version: 0.3.0
+name: DIKIt, nameSpecified: , owner: ishkawa, version: 0.3.1
 
 name: KeychainAccess, nameSpecified: , owner: kishikawakatsumi, version: v3.1.1
 
-name: Nuke, nameSpecified: , owner: kean, version: 7.0
+name: Nuke, nameSpecified: , owner: kean, version: 7.0.1
 
 name: Reachability.swift, nameSpecified: , owner: ashleymills, version: v4.1.0
 
 name: realm-cocoa, nameSpecified: , owner: realm, version: v3.5.0
+
+name: Result, nameSpecified: , owner: antitypical, version: 3.2.4
 
 name: RxRealm, nameSpecified: , owner: RxSwiftCommunity, version: 0.7.5
 

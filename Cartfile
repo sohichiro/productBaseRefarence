@@ -27,6 +27,9 @@ github "ReactiveX/RxSwift"
 # network
 github "ashleymills/Reachability.swift"
 
+# API Client
+github "ishkawa/APIKit"
+
 # Optional
 # Mobile database
 github "realm/realm-cocoa"
